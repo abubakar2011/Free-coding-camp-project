@@ -5,23 +5,25 @@
   }
   
   body {
-    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
-    background-attachment: fixed;
-    font-size: 22px;
-    background-repeat: no-repeat;
-    position: relative;
-    width: 100%;
+ background-size: cover;
+    color: white;
+  font-family: "Poppins", sans-serif;
+margin: 0;
+  }
+
+  body::after{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: var(--color-darkblue); */
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     background-size: cover;
-    color: white;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    font-family: "Poppins", sans-serif;
-    font-size: 1rem;
-    line-height: 1.4;
-    color: white;
-    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   .form-group {
@@ -44,13 +46,13 @@
     position: relative;
     bottom: 10px
   }
-  
+
   .header {
     padding: 0 0.625rem;
     margin-bottom: 1.875rem;
   }
   
-  .title {
+  #title {
     text-align: center;
     font-weight: 300px;
     line-height: 1.2;
@@ -58,7 +60,7 @@
     margin-bottom: 0.5rem;
   }
   
-  .description {
+  #description {
     text-align: center;
     font-style: italic;
     font-weight: 200;
