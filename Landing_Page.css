@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 body{
     background-color: #eee;
     font-family: 'Lato', sans-serif;
 }
+
 #header{
     position: fixed;
     top: 0;
@@ -66,7 +68,7 @@ a{
 #submit{
     max-width: 150px;
     width: 100%;
-    height: 40px;
+    height: 30px;
     margin: 15px 0;
     border: 0;
     background-color: #f1c40f;
@@ -76,4 +78,112 @@ a{
     font-weight: 900;
     border-radius: 2px;
     cursor: pointer;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0px auto;
+}
+#features{
+    margin-top: 30px;
+}
+#How-It-Works{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#pricing{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer{
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+.grid{
+    display: flex;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+}
+
+#features {
+    margin-top: 30px;
+}
+
+iframe {
+    max-width: 560px;
+    width: 100%;
+}
+
+#how-it-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ol {
+    margin: 15px 0;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h2 {
+    margin-top: 15px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
 }
