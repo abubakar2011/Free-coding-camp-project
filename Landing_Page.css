@@ -145,7 +145,7 @@ iframe {
     justify-content: center;
 }
 
-#Pricing {
+#pricing {
     margin-top: 60px;
     display: flex;
     justify-content: center;
@@ -212,3 +212,53 @@ footer span{
     display: flex;
     justify-content: end;
 }
+@media only screen and (max-width: 700px) {
+    .icon{
+        display: none;
+    }
+    .desc>h2{
+        font-size: 13px;
+    }
+.desc>p{
+    font-size: 10px;
+}
+#features{
+    margin: 69px auto;
+    max-width: 500px;
+}
+iframe {
+    max-width: 420px;
+    width: 100%;
+}
+#pricing {
+  
+   flex-wrap: wrap;
+}
+footer{
+    font-size: 13px;
+    
+}
+footer ul{
+    justify-content: center;
+}
+footer span{
+    justify-content: center;
+}
+#nav-bar{
+    font-size: 13px;
+}
+#header-img{
+    height: 20px;
+    width: 190px;
+}
+#hero h2{
+    font-size: 18px;
+}
+#email{
+    height: 20px;
+    width: 200px;
+}
+
+
+
+  }
