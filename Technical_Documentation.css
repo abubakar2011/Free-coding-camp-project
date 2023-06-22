@@ -25,7 +25,7 @@ header {
     font-weight: thin;
 }
 
-.uu {
+.unorder {
     height: 88%;
     padding: 0;
     overflow-y: auto;
@@ -36,7 +36,11 @@ section {
     display: block;
 }
 
-.aa {
+article{
+    margin-bottom: 20px;
+}
+
+.list {
     color: #4d4e53;
     border-top: 1px solid;
     list-style: none;
