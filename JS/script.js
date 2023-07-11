@@ -1,5 +1,5 @@
 
-console.warn("Not to copy from hear")
+console.error("Not to copy from hear")
 
 var para = document.getElementById("para")
 
