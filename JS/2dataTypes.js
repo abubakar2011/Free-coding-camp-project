@@ -64,4 +64,4 @@ student.last="Bakar"
 
 
 
-console.log(Object.keys(name))
+console.log(Object(name))

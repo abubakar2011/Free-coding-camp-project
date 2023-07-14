@@ -33,6 +33,7 @@ console.log(js.split("-"))
 
 const na = "13-7-2023"
 
+console.log(na.split("13-7-"))
 console.log(na.split("-"))
 // prinitng las element of this array
 
