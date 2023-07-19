@@ -33,3 +33,22 @@ num2=num1
 
 console.log(num1,num2)
 
+console.log("abubakar")
+console.warn("abubakar")
+console.error("abubakar")
+
+document.getElementById("nam").style.alignItems="center"
+
+document.getElementById("nam").innerHTML("maa")
+
+var nam = document.getElementById("nam")
+
+let nam = document.getElementById("nam")
+
+const nam = document.getElementById("nam")
+
+var a = true
+
+var a = false
+
+var a = "string value"
