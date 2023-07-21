@@ -93,7 +93,6 @@ console.log(arr.toString())
 // reverse this string
 
 
-const str="Saksham Jaiswal Hero"
 
 // lassiaJ mahskaS
 
@@ -111,11 +110,17 @@ console.log(wrongName.split("/").join(" "))
 
 // first i have made a string and i have converted into array by split and gave 0 and 1 and conveted into string using split and reverse it by using reverse and join it by using join code is const str="Saksham Jaiswal" const str0=str.split(" ")[0].split("").reverse().join("") const str1=str.split(" ")[1].split("").reverse().join("") console.log( `${str0} ${str1}`)
 
-const str0 = str.split(" ")[0].split("").reverse().join("")
-const str1 = str.split(" ")[1].split("").reverse().join("")
+// const str0 = str.split(" ")[0].split("").reverse().join("")
+// const str1 = str.split(" ")[1].split("").reverse().join("")
 
 // oreH mahskaS lawsiaJ
 
-console.log(str.split("").reverse().join(""))
+const str="Saksham Jaiswal Hero"
+
+console.log(str.split("").reverse())
+
+const str2 = str.split(" ")[2].split("").reverse().join("")
+const str1 = str.split(" ")[2].split("").reverse().join("")
+
 
 // Docmunt earch and every line of your code
