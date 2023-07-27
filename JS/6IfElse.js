@@ -127,4 +127,34 @@ console.log(num >= 0&&num<=20)
 // console.log(num >= 60 && num<=80? "between" : "not in between")
 // console.log(num >= 80 && num<=100? "between" : "not in between")
 
-console.log(num >= 0 && num<=20? "between" : " " && num >= 20 && num<=40? "between" : "not in between" && num >= 40 && num<=60? "between" : "not in between" && num >= 60 && num<=80? "between" : "not in between" && num >= 80 && num<=100? "between" : "not in between")
+// console.log(num >= 0 && num<=20? "between 0 to 20" : " not between 0 to 20" && num >= 20 && num<=40? "between 20 to 40" : "not in between 20 to 40" && num >= 40 && num<=60? "between 40 to 60" : "not in between 40 to 60" && num >= 60 && num<=80? "between 60 to 80" : "not in between 60 to 80" && num >= 80 && num<=100? "between 80 to 100" : "not in between 80 t0 100")
+
+
+
+// great work done by siddi and code working fine
+
+console.log(Boolean(""))
+
+let day=""
+let x=11
+
+
+switch (4) {
+    case 0:
+        console.log(num >= 0 && num<=20? "between" : "not in between")
+      break;
+    case 1:
+        console.log(num >= 20 && num<=40? "between" : "not in between")
+      break;
+    case 2:
+        console.log(num >= 40 && num<=60? "between" : "not in between")
+      break;
+    case 3:
+        console.log(num >= 60 && num<=80? "between" : "not in between")
+      break;
+    case 4:
+        console.log(num >= 80 && num<=100? "between" : "not in between")
+      break;
+    case 5:
+        console.log(num >= 800 && num<=1000? "between" : "not in between")
+  }
