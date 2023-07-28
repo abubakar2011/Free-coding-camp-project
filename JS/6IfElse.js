@@ -90,13 +90,12 @@ else {
 // console.log(true|| false)
 // console.log(true ||true)
 
-const num= 100
 // what is && 
 console.log(false && false)
 console.log(false && true)
 console.log(true && false)
 console.log(true && true)
-console.log(num >= 0&&num<=20)
+// console.log(num >= 0&&num<=20)
 
 // if (num>=0 && num<=20){
 //     console.log("nuber is in between 0-20")
@@ -137,24 +136,65 @@ console.log(Boolean(""))
 
 let day=""
 let x=11
+const num= 40
 
 
-switch (4) {
+switch (true) {
+    case num >= 0 && num<=20:
+        console.log("between 0 to 20")
+      break;
+    case num >= 20 && num<=40:
+        console.log("between 20 to 40")
+      break;
+    case num >= 40 && num<=60:
+        console.log( "not in between 40 to 60")
+      break;
+    case num >= 60 && num<=80:
+        console.log( "not in between 60 to 80")
+      break;
+    case num >= 80 && num<=100:
+        console.log("not in between 80 to 100")
+      break;
+    case num >= 800 && num<=1000:
+        console.log("between 800 t0 1000")
+    default :
+    console.log("number beyond range")
+  }
+
+
+  // find if number is even or odd
+  
+  switch (true) {
     case 0:
-        console.log(num >= 0 && num<=20? "between" : "not in between")
+        console.log()
       break;
     case 1:
-        console.log(num >= 20 && num<=40? "between" : "not in between")
+        console.log()
       break;
     case 2:
-        console.log(num >= 40 && num<=60? "between" : "not in between")
+        console.log()
       break;
     case 3:
-        console.log(num >= 60 && num<=80? "between" : "not in between")
+        console.log()
       break;
     case 4:
-        console.log(num >= 80 && num<=100? "between" : "not in between")
+        console.log()
       break;
     case 5:
-        console.log(num >= 800 && num<=1000? "between" : "not in between")
+        console.log()
+    default :
+    console.log("number beyond range")
   }
+
+  // find if number is even or odd
+	const	numa = 1;
+		switch (numa % 2)
+		{
+			case 0:
+				console.log("This is Number Even");
+				break;
+ 
+			case 1:
+				console.log("This is Number");
+				break;
+		}
