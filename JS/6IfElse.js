@@ -60,26 +60,26 @@ console.log("this is js")
 const salary = 1000
 
 // 
-if(salary>1000){
-    console.log("salary is greater then 1000")
+if (salary > 1000) {
+  console.log("salary is greater then 1000")
 }
-else if(salary<1000){
-console.log("Salary is less then 1000")
+else if (salary < 1000) {
+  console.log("Salary is less then 1000")
 }
 else {
-    console.log("Salary is equal to 1000")
+  console.log("Salary is equal to 1000")
 }
 
 const landmoney = 15000
 
-if (landmoney < salary){
-    console.log("landmoney is less than salary")
+if (landmoney < salary) {
+  console.log("landmoney is less than salary")
 }
-else if (landmoney > salary){
-    console.log("landmoney is greater than salary")
+else if (landmoney > salary) {
+  console.log("landmoney is greater than salary")
 }
 else {
-    console.log("landmoney and salary are equal")
+  console.log("landmoney and salary are equal")
 }
 
 
@@ -134,67 +134,108 @@ console.log(true && true)
 
 console.log(Boolean(""))
 
-let day=""
-let x=11
-const num= 40
+let day = ""
+let x = 11
+const num = 40
 
 
 switch (true) {
-    case num >= 0 && num<=20:
-        console.log("between 0 to 20")
-      break;
-    case num >= 20 && num<=40:
-        console.log("between 20 to 40")
-      break;
-    case num >= 40 && num<=60:
-        console.log( "not in between 40 to 60")
-      break;
-    case num >= 60 && num<=80:
-        console.log( "not in between 60 to 80")
-      break;
-    case num >= 80 && num<=100:
-        console.log("not in between 80 to 100")
-      break;
-    case num >= 800 && num<=1000:
-        console.log("between 800 t0 1000")
-    default :
+  case num >= 0 && num <= 20:
+    console.log("between 0 to 20")
+    break;
+  case num >= 20 && num <= 40:
+    console.log("between 20 to 40")
+    break;
+  case num >= 40 && num <= 60:
+    console.log("not in between 40 to 60")
+    break;
+  case num >= 60 && num <= 80:
+    console.log("not in between 60 to 80")
+    break;
+  case num >= 80 && num <= 100:
+    console.log("not in between 80 to 100")
+    break;
+  case num >= 800 && num <= 1000:
+    console.log("between 800 t0 1000")
+  default:
     console.log("number beyond range")
-  }
+}
 
 
-  // find if number is even or odd
-  
-  switch (true) {
-    case 0:
-        console.log()
-      break;
-    case 1:
-        console.log()
-      break;
-    case 2:
-        console.log()
-      break;
-    case 3:
-        console.log()
-      break;
-    case 4:
-        console.log()
-      break;
-    case 5:
-        console.log()
-    default :
+// find if number is even or odd
+
+switch (true) {
+  case 0:
+    console.log()
+    break;
+  case 1:
+    console.log()
+    break;
+  case 2:
+    console.log()
+    break;
+  case 3:
+    console.log()
+    break;
+  case 4:
+    console.log()
+    break;
+  case 5:
+    console.log()
+  default:
     console.log("number beyond range")
-  }
+}
 
-  // find if number is even or odd
-	const	numa = 1;
-		switch (numa % 2)
-		{
-			case 0:
-				console.log("This is Number Even");
-				break;
- 
-			case 1:
-				console.log("This is Number");
-				break;
-		}
+// find if number is even or odd
+const numa = 1;
+switch (numa % 2) {
+  case 0:
+    console.log("This is Number Even");
+    break;
+
+  case 1:
+    console.log("This is Number");
+    break;
+}
+
+const abc = "saksham jaiswal"
+console.log(abc.split("").reverse().join(""))
+console.log(abc.split("").push())
+
+
+const student = {
+  first: "Saksham",
+  des: "aa",
+  aaa: "aa",
+}
+console.log(student.object)
+
+// FUNCTION IS USED TO REPET ALL THINGS MANEY ABOVE 100000+ ALSO INFINITE AND FINITE  function name() { }
+
+function name() {
+
+}
+
+// substring 7 and 8 date
+
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.substring(7);
+
+// substr 9 date
+
+let strr = "App, Bana, antivirous";
+document.getElementById("demo").innerHTML = strr.substr(-19);
+
+// replace 10 date
+
+let text = "Please visit Microsoft and Microsoft!";
+let newText = text.replace("Microsoft", "W3Schools");
+
+// string replace 11date
+
+
+let tex = "I love cats. Cats are very easy to love. Cats are very popular."
+tex = tex.replaceAll("Cats", "Dogs");
+tex = tex.replaceAll("cats", "dogs");
+
+document.getElementById("demo").innerHTML = tex;

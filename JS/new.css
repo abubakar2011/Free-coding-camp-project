@@ -1,0 +1,21 @@
+body{
+    background-color: blueviolet;
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+    text-shadow: 2px 2px #0000;
+}
+B {
+    color: gold;
+}
+button {
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 650px;
+    margin-top: 200px;
+}

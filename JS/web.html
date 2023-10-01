@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>* JET PAD NOTES *</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>JET PAD NOTES</h1>
+
+  <div id="scheduleForm">
+    <h2>Simple Notes </h2>
+    <label for="meetingName">Note:</label>
+    <input type="text" id="meetingName">
+    <label for="meetingDate">Date:</label>
+    <input type="date" id="meetingDate">
+    <label for="meetingTime">Time:</label>
+    <input type="time" id="meetingTime">
+    <button onclick="scheduleMeeting()">Note it</button>
+  </div>
+
+  <div id="meetingsList">
+    <h2>NOTES</h2>
+    <ul id="meetings"></ul>
+  </div>
+
+  <script src="script copy.js"></script>
+</body>
+</html>
